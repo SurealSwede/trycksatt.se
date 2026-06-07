@@ -1,16 +1,10 @@
------
-
-## layout: post
-title: “Sprinkler — historik, fakta och varför det krävs”
+---
+layout: post
+title: "Sprinkler — historik, fakta och varför det krävs"
 date: 2026-06-07
 tags: [Grundkurs]
-description: “Varför finns sprinkler? En genomgång av teknikens historia, hur effektivt det egentligen fungerar och när det krävs enligt svenska regler.”
-
-Sprinkler är en av de mest beprövade brandskyddsteknologierna som finns. Ändå vet de flesta väldigt lite om hur det fungerar, var det kommer ifrån — eller varför det ibland måste finnas i en byggnad.
-
-Den här artikeln reder ut det.
-
------
+description: "Varför finns sprinkler? En genomgång av teknikens historia, hur effektivt det egentligen fungerar och när det krävs enligt svenska regler."
+---
 
 ## En kort historik
 
