@@ -68,7 +68,6 @@ L_tot = L_fysisk + (antal_böjar × ekvivalent_böj) + (antal_T-rör × ekvivale
 
 Det är användbart att normalisera tryckfallet till bar per meter — det ger en omedelbar känsla för om dimensioneringen är rimlig.
 
-En tumregel i sprinklerprojektering är att tryckfallet i distributionsrör bör hållas under **0,01–0,02 bar/m** för att undvika överdimensionerade pumpar.
 
 ### Hastighetsbegränsning
 
