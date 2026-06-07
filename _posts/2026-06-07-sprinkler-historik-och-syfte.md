@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: artikel
 title: “Sprinkler — historik, fakta och varför det krävs”
 date: 2026-06-07
 tags: [Grundkurs]
