@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<article class="post-article">
+  <div class="container container--narrow">
+
+    <header class="post-header">
+      {% if page.kategori %}
+      <span class="post-kategori">{{ page.kategori }}</span>
+      {% endif %}
+      <h1 class="post-title">{{ page.title }}</h1>
+      <div class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date: "%-d %B %Y" }}
+        </time>
+        {% if page.lasttid %}
+        <span class="post-lasttid">· {{ page.lasttid }} min läsning</span>
+        {% endif %}
+      </div>
+      {% if page.ingress %}
+      <p class="post-ingress">{{ page.ingress }}</p>
+      {% endif %}
+    </header>
+
+    <div class="post-content">
+      {{ content }}
+    </div>
+
+    <footer class="post-footer">
+      <a href="{{ '/artiklar/' | relative_url }}" class="back-link">← Alla artiklar</a>
+    </footer>
+
+  </div>
+</article>

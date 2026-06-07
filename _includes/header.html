@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="container">
+    <nav class="nav" aria-label="Huvudnavigation">
+      <a href="{{ '/' | relative_url }}" class="nav__logo">
+        trycksatt.se
+        <span>/ Andreas Surell</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="{{ '/verktyg/' | relative_url }}" {% if page.url contains '/verktyg' %}class="active"{% endif %}>Verktyg</a></li>
+        <li><a href="{{ '/artiklar/' | relative_url }}" {% if page.url contains '/artiklar' %}class="active"{% endif %}>Artiklar</a></li>
+        <li><a href="{{ '/om/' | relative_url }}" {% if page.url contains '/om' %}class="active"{% endif %}>Om</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,63 @@
+---
+layout: default
+title: "Hydraulikverktyget"
+description: "Beräkna tryckfall, hastighet och sprinklerdimensionering direkt i webbläsaren."
+---
+<section class="section" style="border-top: none; padding-top: 3rem;">
+  <div class="container">
+    <div class="section__header">
+      <p class="section__label">Verktyg</p>
+      <h1 class="section__title">Hydraulikverktyget</h1>
+      <p style="color: var(--ink-muted); margin-top: 0.5rem; font-size: 0.95rem; max-width: 560px;">
+        Beräkna tryckfall (Hazen-Williams), hastighet och sprinklerdimensionering. 
+        Baserat på SBF 120 och EN 12845. Körs helt lokalt i webbläsaren.
+      </p>
+    </div>
+
+    <div class="tool-embed">
+      <div class="tool-embed__bar">
+        <span class="tool-embed__dot"></span>
+        <span class="tool-embed__dot"></span>
+        <span class="tool-embed__dot"></span>
+        <span class="tool-embed__url">surealswede.github.io/Sprinkler-calcs-/</span>
+      </div>
+      <iframe 
+        src="https://surealswede.github.io/Sprinkler-calcs-/"
+        title="Hydraulikverktyg för sprinkler"
+        loading="lazy"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <p style="margin-top: 1rem; font-size: 0.82rem; color: var(--ink-faint); text-align: center;">
+      Problem med inbäddningen? 
+      <a href="https://surealswede.github.io/Sprinkler-calcs-/" target="_blank" rel="noopener">Öppna verktyget i eget fönster →</a>
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container--narrow">
+    <div class="section__header">
+      <p class="section__label">I verktyget</p>
+      <h2 class="section__title">Vad du kan beräkna</h2>
+    </div>
+    <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));">
+      <div class="card">
+        <div class="card__icon">📉</div>
+        <h3 class="card__title">Tryckfall</h3>
+        <p class="card__body">Hazen-Williams med automatisk omräkning av ekvivalenta rörlängder för böjar och T-rör.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon">💧</div>
+        <h3 class="card__title">Sprinklerhuvud</h3>
+        <p class="card__body">Q = k√p, minsta flöde per täckyta och minsta tryck för EC-sprinkler.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon">📊</div>
+        <h3 class="card__title">Alla dimensioner</h3>
+        <p class="card__body">Tabellöversikt för alla DN i vald rörtyp — snabbt jämföra alternativ.</p>
+      </div>
+    </div>
+  </div>
+</section>

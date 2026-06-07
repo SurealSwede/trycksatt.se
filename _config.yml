@@ -1,0 +1,25 @@
+title: "trycksatt.se"
+description: "Hydraulik och sprinklerteknik för branschproffs"
+author: "Andreas Surell"
+baseurl: ""
+url: "https://trycksatt.se"
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+collections:
+  posts:
+    output: true
+    permalink: /artiklar/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "artikel"

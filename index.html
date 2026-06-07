@@ -1,0 +1,107 @@
+---
+layout: default
+title: "Hydraulik & sprinklerteknik"
+---
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <p class="hero__eyebrow">Sprinklerteknik</p>
+    <h1 class="hero__title">
+      Verktyg och kunskap<br>för <strong>sprinklerprojektörer</strong>
+    </h1>
+    <p class="hero__lead">
+      Hydrauliska beräkningar, normer och branschkunskap samlat på ett ställe. 
+      Framtaget av en sprinklerkonsult — för sprinklerkonsulter.
+    </p>
+    <div class="hero__actions">
+      <a href="/verktyg/" class="btn btn--primary">
+        Öppna hydraulikverktyget
+      </a>
+      <a href="/artiklar/" class="btn btn--ghost">
+        Läs artiklar
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Vad finns här -->
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <p class="section__label">På trycksatt.se</p>
+      <h2 class="section__title">Vad du hittar här</h2>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card__icon">⚙️</div>
+        <h3 class="card__title">Hydraulikverktyg</h3>
+        <p class="card__body">
+          Beräkna tryckfall (Hazen-Williams), hastighet och minsta dimension direkt i webbläsaren. 
+          Rördata från SBF 120 och EN 12845.
+        </p>
+        <a href="/verktyg/" class="card__link">Öppna verktyget</a>
+      </div>
+      <div class="card">
+        <div class="card__icon">📐</div>
+        <h3 class="card__title">Sprinklerberäkning</h3>
+        <p class="card__body">
+          K-faktor, minsta flöde och drifttryck för EC-sprinkler. Formlerna bakom beräkningarna förklarade.
+        </p>
+        <a href="/artiklar/" class="card__link">Läs mer</a>
+      </div>
+      <div class="card">
+        <div class="card__icon">📖</div>
+        <h3 class="card__title">Normer & standarder</h3>
+        <p class="card__body">
+          SBF 120, EN 12845 och SBF 2016:2 förklarat i praktiken. Vad skiljer standarderna åt och när gäller vad?
+        </p>
+        <a href="/artiklar/" class="card__link">Läs artiklar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Senaste artiklar -->
+<section class="section">
+  <div class="container--narrow">
+    <div class="section__header">
+      <p class="section__label">Artiklar</p>
+      <h2 class="section__title">Senaste inlägg</h2>
+    </div>
+    <nav class="article-list" aria-label="Senaste artiklar">
+      {% for post in site.posts limit:5 %}
+      <a href="{{ post.url | relative_url }}" class="article-item">
+        <span class="article-item__title">{{ post.title }}</span>
+        <span class="article-item__meta">{{ post.date | date: "%d %b %Y" }}</span>
+      </a>
+      {% else %}
+      <p style="color: var(--ink-faint); font-size: 0.9rem; padding: 1rem 0;">
+        Artiklar kommer snart. Verktyget är redan live →
+        <a href="/verktyg/">prova det</a>.
+      </p>
+      {% endfor %}
+    </nav>
+    {% if site.posts.size > 5 %}
+    <div style="margin-top: 1.5rem;">
+      <a href="/artiklar/" class="btn btn--ghost">Alla artiklar</a>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<!-- Om Andreas -->
+<section class="about-strip">
+  <div class="container">
+    <div class="section__header" style="margin-bottom: 0;">
+      <p class="section__label">Om sajten</p>
+      <h2 class="section__title">Varför trycksatt.se?</h2>
+      <p>
+        Jag heter Andreas Surell och arbetar som sprinklerkonsult. 
+        Jag byggde de verktyg jag själv saknat — och delar dem gratis med branschen. 
+        Allt på trycksatt.se är baserat på SBF 120 och EN 12845.
+      </p>
+      <a href="/om/" class="btn btn--ghost">Läs mer om projektet</a>
+    </div>
+  </div>
+</section>

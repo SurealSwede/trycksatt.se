@@ -1,0 +1,33 @@
+---
+layout: default
+title: "Artiklar"
+description: "Tekniska artiklar om sprinklerteknik, hydraulik och normer."
+---
+<section class="section" style="border-top: none; padding-top: 3rem;">
+  <div class="container--narrow">
+    <div class="section__header">
+      <p class="section__label">Kunskapsbas</p>
+      <h1 class="section__title">Artiklar</h1>
+      <p style="color: var(--ink-muted); margin-top: 0.5rem; font-size: 0.95rem;">
+        Sprinklerteknik, hydraulik och normer förklarat i praktiken.
+      </p>
+    </div>
+
+    <nav class="article-list" aria-label="Alla artiklar">
+      {% for post in site.posts %}
+      <a href="{{ post.url | relative_url }}" class="article-item">
+        <span class="article-item__title">{{ post.title }}</span>
+        <span class="article-item__meta">{{ post.date | date: "%d %b %Y" }}</span>
+      </a>
+      {% else %}
+      <div style="padding: 3rem 0; text-align: center; color: var(--ink-faint);">
+        <p style="font-size: 0.95rem; margin-bottom: 0.5rem;">Artiklar är på väg.</p>
+        <p style="font-size: 0.85rem;">Prova hydraulikverktyget medan du väntar.</p>
+        <div style="margin-top: 1.5rem;">
+          <a href="/verktyg/" class="btn btn--primary">Öppna verktyget</a>
+        </div>
+      </div>
+      {% endfor %}
+    </nav>
+  </div>
+</section>
