@@ -1,6 +1,5 @@
------
-
-layout: artikel
+---
+layout: post
 title: “Sprinkler — historik, fakta och varför det krävs”
 date: 2026-06-07
 tags: [Grundkurs]
@@ -10,7 +9,7 @@ Sprinkler är en av de mest beprövade brandskyddsteknologierna som finns. Änd�
 
 Den här artikeln reder ut det.
 
------
+---
 
 ## En kort historik
 
