@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sprinkler — historik, fakta och varför det krävs"
-date: 2026-06-07
+date: 2026-0x-xx
 tags: [Grundkurs]
 description: "Varför finns sprinkler? En genomgång av teknikens historia, hur effektivt det egentligen fungerar och när det krävs enligt svenska regler."
 ---
