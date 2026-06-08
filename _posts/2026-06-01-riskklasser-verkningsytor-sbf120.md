@@ -25,9 +25,9 @@ Sprinklersystem dimensioneras utifrån den verksamhet som ska skyddas. SBF 120 d
 
 *Källa: Tabell i SBF 120 (SBF 2016:2)*
 
-## Minsta flöde
+## Minsta teoretiska flöde
 
-Minsta beräkningsflöde för ett system ges av:
+Minsta teoretiska beräkningsflöde för ett system ges av:
 
 ```
 Q_min = vattentäthet (mm/min) × verkningsyta (m²)
