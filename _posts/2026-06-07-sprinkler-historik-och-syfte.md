@@ -40,23 +40,25 @@ I fyra av fem bränder räcker det med ett enda aktiverat sprinklerhuvud för at
 
 ## Varför krävs sprinkler?
 
-Det finns fyra huvudsakliga skäl till att en byggnad utrustas med sprinkler.
+Det finns 3 huvudsakliga skäl till att en byggnad utrustas med sprinkler. Den som kräver sprinkler brukar kallas "kravställare".
 
-### 1. Lagkrav — BBR kapitel 5
+### 1. Myndighetskrav - BBR kapitel 5
 
 Boverkets byggregler (BBR) reglerar brandskydd i svenska byggnader. Kapitel 5 ställer krav på byggnaders brandtekniska utformning baserat på verksamhetsklass och byggnadens storlek.[^6]
 
 I Sverige finns lagkrav på att automatiska släcksystem ska installeras i alla nybyggda äldreboenden, vårdinrättningar och sjukhus.[^4] Sprinkler krävs inte alltid explicit i övriga byggnader, men kan vara ett sätt att uppfylla kraven på skyddsnivå — till exempel för att möjliggöra längre utrymningsvägar, färre brandceller eller högre byggnadshöjd.
 
-### 2. Brandtekniska byten
+Brandtekniska byten
 
 I plan- och byggprocessen är det möjligt att göra brandtekniska byten: en åtgärd som normalt krävs ersätts med en annan som ger likvärdigt eller bättre skydd. Sprinkler används ofta som ett sådant byte — exempelvis för att kompensera för avsaknad av brandcellsgräns eller för att tillåta öppna planlösningar.[^6]
 
-### 3. Försäkringskrav
+När sprinkler är ett myndigthets krav är det främst SS-EN 16925 med SBF 501 som ska tillämpas för boendesprinkler och SS-EN 12845 med SBF 120 för övriga applikationer.
 
-Försäkringsbolag ställer egna krav som kan gå längre än BBR. För industrier, lager och verksamheter med höga värden eller speciella risker är sprinkler ofta ett krav för att teckna eller behålla en fullgod försäkring. Här gäller SBF 120 — svensk sprinklernorm baserad på EN 12845 — som teknisk standard.[^7]
+### 2. Försäkringskrav
 
-### 4. Egenambition
+Försäkringsbolag ställer egna krav som kan gå längre än BBR. För industrier, lager och verksamheter med höga värden eller speciella risker är sprinkler ofta ett krav för att teckna eller behålla en fullgod försäkring. Här gäller kan olika regelverk tillämpasa, beroende på vem som är försäkringsgivare. Vanliga regelverk är: FM (försäkringsbolag), NFPA (amerikanska sprinklerregler) samt SBF 120 — svensk sprinklernorm baserad på EN 12845.[^7]
+
+### 3. Egenambition
 
 Inte alla sprinklersystem installeras för att det krävs. Fastighetsägare och byggherrar väljer ibland sprinkler av eget initiativ — för att skydda verksamheten, minska stilleståndstider vid en eventuell brand, eller som en del av ett medvetet riskarbete.
 
@@ -68,7 +70,7 @@ MSB har sedan 2010 ett regeringsuppdrag om en nollvision där ingen i Sverige sk
 
 Sprinklertekniken har funnits i över 150 år och är i dag en av de mest dokumenterat effektiva metoderna för att begränsa konsekvenserna av en brand. Den aktiveras automatiskt, lokalt, och med minimal vattenanvändning.
 
-Om en byggnad ska ha sprinkler beror på en kombination av lagkrav, tekniska lösningsval, försäkringskrav och ägarens egna ambitioner. I alla dessa fall gäller svenska och europeiska normer — främst BBR och SBF 120 — som teknisk grund.
+Om en byggnad ska ha sprinkler beror på en kombination av lagkrav, tekniska lösningsval, försäkringskrav och ägarens egna ambitioner. 
 
 -----
 
