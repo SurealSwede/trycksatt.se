@@ -56,7 +56,7 @@ När sprinkler är ett myndigthets krav är det främst SS-EN 16925 med SBF 501 
 
 ### 2. Försäkringskrav
 
-Försäkringsbolag ställer egna krav som kan gå längre än BBR. För industrier, lager och verksamheter med höga värden eller speciella risker är sprinkler ofta ett krav för att teckna eller behålla en fullgod försäkring. Här gäller kan olika regelverk tillämpasa, beroende på vem som är försäkringsgivare. Vanliga regelverk är: FM (försäkringsbolag), NFPA (amerikanska sprinklerregler) samt SBF 120 — svensk sprinklernorm baserad på EN 12845.[^7]
+Försäkringsbolag ställer egna krav som kan gå längre än BBR. För industrier, lager och verksamheter med höga värden eller speciella risker är sprinkler ofta ett krav för att teckna eller behålla en fullgod försäkring. Här gäller kan olika regelverk tillämpasa, beroende på vem som är försäkringsgivare. Vanliga regelverk är: FM (försäkringsbolag), NFPA (amerikanska sprinklerregler) samt SBF 120 tillsammans med SS-EN 12845.[^7]
 
 ### 3. Egenambition
 
