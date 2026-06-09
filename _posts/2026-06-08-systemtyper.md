@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sprinklersystemets olika typer — vilket passar var?"
-date: 2026-06-10
+date: 2026-06-08
 tags: [Grundkurs]
 description: "Våtrör, torrör, förutlösning eller torrörförlängning? En genomgång av sprinklersystemens olika typer och när de används."
 ---
