@@ -4,13 +4,21 @@ author: "Andreas Surell"
 baseurl: ""
 url: "https://trycksatt.se"
 
+lang: sv
+timezone: Europe/Stockholm
+
 markdown: kramdown
+kramdown:
+  input: GFM
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
 
 collections:
   posts:
